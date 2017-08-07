@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+  </head>
+  <body>
+  	<h1> Formulario de consultas</h1>
+  	<form action="gracias.html" method="get">
+  		<label form="nombre">Nombre y apellido:</label>
+		<input type="text" name="nombre" placeholder="Ingrese su nombre y apelliido" required>
+		<br><br>
+		<label form="email">Email:</label>
+		<input type="text" name="email" placeholder="Ingrese su email" required>
+		<br><br>
+		Asunto:
+		<select id="asunto" name="asunto">
+			<option value="trabajo">Busqueda laboral</option>
+			<option value="rrhh">Recursos humanos</option>
+			<option value="otros">Otros</option>
+		</select>
+		<br><br>
+		Genero:
+		<input type="radio" name="sexo">Masculino
+		<input type="radio" name="sexo">Femenino
+		<input type="radio" name="sexo">No respone
+		<br><br>
+		Pasatiempos
+		<input type="checkbox" name="pasatiempos">Futbol
+		<input type="checkbox" name="pasatiempos">Peliculas
+		<input type="checkbox" name="pasatiempos">Libros
+		<input type="checkbox" name="pasatiempos">Viajes
+		<input type="checkbox" name="pasatiempos">Otros
+		<br><br>
+		Comentarios:
+		<br>
+		<textarea name="comentarios" cols="40" rows="6" required></textarea>
+		<br><br>
+		<button type="submit" >
+			<img src="https://static1.squarespace.com/static/53bb21cee4b0239883a25f2c/t/56b118d760b5e94a864c2358/1454446807827/enviarbutton.gif" width="140">
+		</button>
+		<button type="reset">
+			<img src="https://hubsports.mx/wp-content/uploads/2016/05/reiniciar.png" width="100">
+		</button>
+  	</form>
+  </body>
+</html>

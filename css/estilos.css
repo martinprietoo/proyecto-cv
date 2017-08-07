@@ -1,0 +1,55 @@
+h1 { color: rgba(22, 192, 31, 0.5); 
+	text-decoration: underline;}
+h2 { color: #ffb300; 
+	text-decoration: underline;}
+h3 { color: #388e3c; 
+	text-decoration: underline;}
+
+.destacado{
+	color: #009688;
+	font-size: 22px;
+	line-height: 31px;
+}
+body{
+	h1= color: #369; 
+font-family: sans-serif;
+text-align: justify;
+font-style: italic;
+font-size: 14px;
+line-height: 23px;
+background-image: url(../images/fondo.png);
+
+
+background-attachment: fixed;
+background-size: center;
+}
+
+h3:hover {
+ background-color: yellow;
+}
+
+textarea:focus {
+    border: 1px blue; 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 6px;
+    background: rgba(240,255,255,0.5);
+}
+input:focus {
+    border: 1px blue; 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 6px;
+    background: rgba(240,255,255,0.5);
+}
+
+textarea{
+	resize: vertical;
+}
+
+a:hover{
+	color: red;
+	text-decoration: underline;
+}
